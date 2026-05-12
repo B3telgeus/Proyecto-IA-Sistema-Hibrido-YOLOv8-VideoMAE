@@ -1,0 +1,24 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Carpetas de resultados de YOLO
+runs/
+results/
+
+# Datasets y archivos pesados
+*.zip
+*.mp4
+*.avi
+dataset/
+dataset_local/
+
+# Pesos de modelos
+*.pt
+checkpoint-*/
+
+# Ignorar modelos gigantes
+notebooks/checkpoints_fase2_transmilenio/
+notebooks/modelo_final_transmilenio/
+
